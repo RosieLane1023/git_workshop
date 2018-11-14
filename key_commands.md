@@ -11,3 +11,10 @@ git checkout version_string filename    restores an old file
 git checkout -b branch_name    start a new branch from whichever file your head is currently in. 
 git branch        tells you branch info - what branch you are on, and which others exist.
 git checkout new_branch    can also use this to move head between branches
+git mv something.md background.md    moves or renames something to background
+
+git push   pushes your changes from your computer into the cloud
+git pull   pulls changes from the cloud onto your computer
+
+useful to know:
+.git directory will be corrupted and break if used with another version of git. 
