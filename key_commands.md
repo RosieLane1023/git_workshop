@@ -10,3 +10,4 @@ git checkout version_string     can check out old versions
 git checkout version_string filename    restores an old file
 git checkout -b branch_name    start a new branch from whichever file your head is currently in. 
 git branch        tells you branch info - what branch you are on, and which others exist.
+git checkout new_branch    can also use this to move head between branches
